@@ -1,0 +1,175 @@
+@import url(//fonts.googleapis.com/earlyaccess/nicomoji.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+body{
+   padding: 0;
+   margin: 0;
+   font-size: 16px;
+   display: block;
+   align-content: center;
+}
+h1, h2, h3, h4, h5,h6 {
+   padding: 0;
+   margin: 0;
+   text-transform: uppercase;
+}
+
+ul, li{
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+   margin: 0 auto;
+   width: 1202px;
+}
+
+header{
+   padding-left: 50px;
+   background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+   height: 761.47px;
+}
+
+header a{
+   color: #E4E4E4;
+}
+
+.menu{
+   display: flex;
+   margin-left: 219px;
+   margin-top: 14px;
+}
+
+.nav{
+   display: flex;
+   align-items: center;
+   padding-top: 26px;
+}
+.menu li a{
+   text-decoration: none;
+   font-size: 18px;
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 21px; 
+   display: flex;
+   align-items: center;
+}
+
+.menu #li{
+   margin-right: 145px;
+}
+#name{
+   font-family: 'Nico Moji';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 18px;
+   text-decoration: none;
+   align-items: center;
+
+   margin-left: 14px;
+   margin-top: 6px;
+
+   color: #FFFFFF;
+
+}
+
+.hi{
+   color: #FFFFFF;
+   width: 447px;
+   margin-top: 160px;
+}
+
+.hi p{
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 48px;
+   line-height: 54px;
+   text-transform: uppercase;
+
+   margin-bottom: 13px;
+}
+.hi h1{
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 72px;
+   line-height: 82px;
+   text-transform: none;;
+   margin-bottom: 27px;
+}
+
+.hi h2{
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   font-style: normal;
+   font-size: 18px;
+   line-height: 30px;
+   text-transform: none;
+
+   margin-bottom: 27px;
+}
+
+.btn{
+   background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+   box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
+   border-radius: 6px;
+   text-decoration: none;
+   align-items: center;
+   position: absolute;
+   display: flex;
+   width: 160px;
+   height: 47px;
+   padding-left: 50px;
+   padding-right: 15px;
+   text-align: center;
+   color: rgb(0, 0, 0);
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 20px;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   transition: .5s;
+}
+
+
+.hi img {
+   position: absolute;
+   width: 800px;
+   height: 810px;
+   left: 905px;
+   top: 92px;
+   
+}
+
+/* Section */
+section{
+   /* position: absolute; */
+   align-items: center;
+   background-color: #3e3e3e;
+}
+
+
+.skils{
+   background-color: #3e3e3e;
+   display: block;
+   margin-left: 41px;
+}
+
+.skils img{
+   width: 270px;
+   height: 270px;
+}
+
+.top{
+   padding-top: 113px;
+}
+
+.bottom{
+   padding-top: 15px;
+   margin-top: 0px;
+   margin-left: 145px;
+}
